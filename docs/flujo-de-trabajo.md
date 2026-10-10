@@ -246,7 +246,7 @@ a todos los repos que no tengan los suyos propios:
 
 ```
 .github/                          (en local: qhcube-dotgithub/)
-├── ISSUE_TEMPLATE/
+├── .github/ISSUE_TEMPLATE/
 │   ├── bug.yml                   # formulario de bug (tipo Bug)
 │   ├── feature.yml               # formulario de funcionalidad (tipo Feature)
 │   ├── task.yml                  # formulario de tarea (tipo Task)
