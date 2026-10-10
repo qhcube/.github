@@ -1,0 +1,32 @@
+name: Funcionalidad
+description: Funcionalidad nueva o mejora visible para el usuario.
+type: Feature
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué se quiere
+    validations:
+      required: true
+  - type: textarea
+    id: para-que
+    attributes:
+      label: Para qué
+      description: Qué problema resuelve o qué aporta.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      description: Qué tiene que cumplirse para darlo por terminado.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas
+      description: Ideas de implementación, alternativas, enlaces...

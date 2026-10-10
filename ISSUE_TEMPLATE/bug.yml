@@ -1,0 +1,52 @@
+name: Bug
+description: Algo no funciona como debería.
+type: Bug
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Qué pasa
+      description: Describe el problema en pocas frases.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para reproducirlo
+      placeholder: |
+        1. Ir a ...
+        2. Pulsar en ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué se esperaba
+    validations:
+      required: true
+  - type: dropdown
+    id: entorno
+    attributes:
+      label: Entorno
+      options:
+        - Producción
+        - Desarrollo local
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión
+      description: Versiones de front y back (aparecen en el pie de página).
+      placeholder: "front 0.1.1 / back 0.1.1"
+  - type: input
+    id: navegador
+    attributes:
+      label: Navegador y sistema
+      placeholder: "Firefox 140 / Windows 11"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Capturas, logs u otra información
+      description: Puedes arrastrar imágenes aquí.
