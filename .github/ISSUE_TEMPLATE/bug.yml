@@ -1,6 +1,5 @@
 name: Bug
 description: Algo no funciona como debería.
-type: Bug
 body:
   - type: textarea
     id: descripcion

@@ -1,6 +1,5 @@
 name: Tarea
 description: Trabajo interno (configuración, despliegue, dependencias, documentación técnica...).
-type: Task
 body:
   - type: textarea
     id: que

@@ -1,6 +1,5 @@
 name: Funcionalidad
 description: Funcionalidad nueva o mejora visible para el usuario.
-type: Feature
 body:
   - type: textarea
     id: que
